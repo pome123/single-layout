@@ -16,3 +16,9 @@ body {
   font-size: 1.4rem;
   font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
+
+/* header */
+
+.header {
+  padding: 170px 30px 80px;
+}
