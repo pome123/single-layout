@@ -118,10 +118,12 @@ body {
   margin-top: 60px;
   table-layout: fixed;
 }
+/* 作品と作品紹介文の枠 */
 .work-box {
   position: relative;
   display: table-cell;
 }
+/* 作品紹介文の反転画像 */
 .work-box::after {
   content: '';
   position: absolute;
@@ -139,6 +141,7 @@ body {
   width: 100%;
   margin: 0 0 60%;
 }
+/* 作品紹介文の枠 */
 .work-description {
   position: absolute;
   top: 50%;
@@ -152,12 +155,14 @@ body {
   height: 100%;
   padding: 20px;
 }
+/* 作品紹介文 */
 .work-text {
   display: table-cell;
   vertical-align: middle;
   font-size: 1.2rem;
   line-height: 2;
 }
+/* ※buttonの大枠はheaderのbuttonと同じ */
 .work-text .button {
   width: 60%;
   margin-top: 20px;
