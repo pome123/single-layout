@@ -123,7 +123,7 @@ body {
   position: relative;
   display: table-cell;
 }
-/* 作品紹介文の反転画像 */
+/* 作品紹介文の背景画像の反転 */
 .work-box::after {
   content: '';
   position: absolute;
@@ -136,6 +136,12 @@ body {
   opacity: 0.2;
   transform: scaleY(-1);
 }
+.work-image {
+  display: block;
+  width: 100%;
+  margin: 0 0 60%;
+}
+/* 作品紹介文の背景画像 */
 .work-box.tree::after {
   background-image: url('../images/tree.jpg');
 }
@@ -147,11 +153,6 @@ body {
 }
 .work-box.sky::after {
   background-image: url('../images/sky.jpg');
-}
-.work-image {
-  display: block;
-  width: 100%;
-  margin: 0 0 60%;
 }
 /* 作品紹介文の枠 */
 .work-description {
@@ -185,3 +186,4 @@ body {
   border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0.15);
 }
+
