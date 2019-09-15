@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
-/* base */
-
+/********************
+        base 
+*********************/
 html {
   font-size: 62.5%;
 }
@@ -17,8 +18,9 @@ body {
   font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
-/* header */
-
+/*******************
+      header 
+********************/
 .header {
   padding: 170px 30px 80px;
 }
@@ -71,8 +73,9 @@ body {
 }
 
 
-/* ABOUT ME */
-
+/********************
+      ABOUT ME 
+*********************/
 .about {
   padding: 80px 30px;
   background-color: #fff;
@@ -106,8 +109,9 @@ body {
 }
 
 
-/* WORKS */
-
+/********************
+       WORKS 
+*********************/
 .works {
   background-color: #383634;
   padding: 80px 0;
@@ -197,3 +201,12 @@ body {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
+
+/********************
+      MY SKILLS 
+*********************/
+.skills {
+  padding: 80px 0;
+  background-color: #fff;
+  color: #333;
+}
