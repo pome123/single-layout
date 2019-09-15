@@ -210,3 +210,14 @@ body {
   background-color: #fff;
   color: #333;
 }
+.skill-wrapper {
+  /* display: table; */
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 50px auto 0;
+  /* table-layout: fixed; */
+}
+.skill-box {
+  /* display: table-cell; */
+}
