@@ -299,3 +299,11 @@ body {
   padding: 12px 0;
   font-size: 1.3rem;
 }
+
+
+/********************
+      responve 
+*********************/
+@media (max-width: 768px) {
+  
+}
