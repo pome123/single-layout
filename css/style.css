@@ -134,6 +134,7 @@ body {
 .work-box {
   position: relative;
   display: table-cell;
+  overflow: hidden;
 }
 /* 作品紹介文の背景画像の反転 */
 .work-box::after {
@@ -153,9 +154,7 @@ body {
   width: 100%;
   margin: 0 0 60%;
 }
-.work-box {
-  overflow: hidden;
-}
+/* 制作物をhoverしたときに作品画像が拡大されるように設定 */
 .work-box img {
   transition: transform 0.5s ease-in-out;
 }
