@@ -153,6 +153,21 @@ body {
   width: 100%;
   margin: 0 0 60%;
 }
+.work-box {
+  overflow: hidden;
+}
+.work-box img {
+  transition: transform 0.5s ease-in-out;
+}
+.work-box:nth-of-type(odd) img {
+  transform-origin: top center;
+}
+.work-box:nth-of-type(even) img {
+  transform-origin: bottom center;
+}
+.work-box:hover img {
+  transform: scale(1.1);
+}
 /* 作品紹介文の背景画像 */
 .work-box.tree::after {
   background-image: url('../images/tree.jpg');
