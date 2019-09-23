@@ -93,14 +93,22 @@ body {
 .heading::before,
 .heading::after {
   content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-bottom: 1px solid #999;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 25px;
+  border: 1px solid;
+  transform: rotate(45deg);
+  vertical-align: 10px;
 }
-.heading::before {
-  bottom: 5px;
+@media (max-width: 768px) {
+  .heading::before,
+  .heading::after {
+    width: 6px;
+    height: 6px;
+    margin: 0 12px;
+    vertical-align: 5px;
+  }
 }
 /* 自己紹介文 */
 .about-text {
