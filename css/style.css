@@ -305,6 +305,8 @@ body {
       responve 
 *********************/
 @media (max-width: 768px) {
+  /* header */
+  /* サブタイトル */
   .site-title-sub::before,
   .site-title-sub::after {
     display: block;
@@ -313,5 +315,30 @@ body {
   }
   .site-title-sub {
     font-size: 1.7rem;
+  }
+  /* タイトル */
+  .site-title {
+    margin-top: 35px;
+    font-size: 5rem;
+  }
+  /* ヘッダー上の余白 */
+  .header {
+    padding-top: 60px;
+  }
+  .button:hover {
+    opacity: 1;
+  }
+
+
+  /* ABOUT ME */
+  /* 見出し */
+  .heading {
+    font-size: 2.5rem;
+  }
+  body {
+    font-size: 1.3rem;
+  }
+  .about-text {
+    line-height: 1.8;
   }
 }
